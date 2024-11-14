@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2efe9;
+    color: #333;
+}
+
+header {
+    background-color: #4a7b6c;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none; /* Removes the bullet points */
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline; /* Displays the list items side by side */
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none; /* Removes the underline */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #fdd835;
+}
+
+/* featured */
+
+#featured {
+    padding: 40px;
+    text-align: center;
+}
+
+#featured h2 {
+    font-size: 2rem;
+    color: #4a7b6c;
+    margin-bottom: 20px;
+}
+
+.record {
+    background-color: #fff;
+    border: 2px solid #4a7b6c;
+    margin: 15px;
+    padding: 20px;
+    display: inline-block; /* Displays the records side by side */
+    width: 250px;
+    transform: transform 0.2s;
+}
+
+.record:hover {
+    transform: scale(1.05);
+}
+
+.record img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 500px;
+    background-color: #4a7b6c;
+    color: white;
+}
