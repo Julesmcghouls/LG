@@ -82,3 +82,57 @@ footer {
     background-color: #4a7b6c;
     color: white;
 }
+
+/* New Arrivals Section */
+#new-arrivals {
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  #new-arrivals h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.8rem;
+    color: #4a4a4a;
+    margin-bottom: 20px;
+  }
+  
+  .record-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .record-card {
+    background-color: #f2f2f2;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 220px;
+    text-align: left;
+  }
+  
+  .record-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .record-info {
+    padding: 15px;
+  }
+  
+  .record-info h3 {
+    font-size: 1.2rem;
+    color: #2a2a2a;
+    margin: 5px 0;
+  }
+  
+  .record-info p {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .record-info .description {
+    font-style: italic;
+    color: #777;
+  }
