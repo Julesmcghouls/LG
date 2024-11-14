@@ -1,138 +1,138 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f2efe9;
-    color: #333;
+font-family: Arial, sans-serif;
+background-color: #f2efe9;
+color: #333;
 }
 
 header {
-    background-color: #4a7b6c;
-    color: white;
-    padding: 20px;
-    text-align: center;
+background-color: #4a7b6c;
+color: white;
+padding: 20px;
+text-align: center;
 }
 
 header h1 {
-    font-size: 2.5rem;
-    font-weight: bold;
+font-size: 2.5rem;
+font-weight: bold;
 }
 
 nav ul {
-    list-style-type: none; /* Removes the bullet points */
-    margin-top: 10px;
+list-style-type: none; /* Removes the bullet points */
+margin-top: 10px;
 }
 
 nav ul li {
-    display: inline; /* Displays the list items side by side */
-    margin: 0 15px;
+display: inline; /* Displays the list items side by side */
+margin: 0 15px;
 }
 
 nav ul li a {
-    color: #fff;
-    text-decoration: none; /* Removes the underline */
-    font-weight: bold;
+color: #fff;
+text-decoration: none; /* Removes the underline */
+font-weight: bold;
 }
 
 nav ul li a:hover {
-    color: #fdd835;
+color: #fdd835;
 }
 
 /* featured */
 
 #featured {
-    padding: 40px;
-    text-align: center;
+padding: 40px;
+text-align: center;
 }
 
 #featured h2 {
-    font-size: 2rem;
-    color: #4a7b6c;
-    margin-bottom: 20px;
+font-size: 2rem;
+color: #4a7b6c;
+margin-bottom: 20px;
 }
 
 .record {
-    background-color: #fff;
-    border: 2px solid #4a7b6c;
-    margin: 15px;
-    padding: 20px;
-    display: inline-block; /* Displays the records side by side */
-    width: 250px;
-    transform: transform 0.2s;
+background-color: #fff;
+border: 2px solid #4a7b6c;
+margin: 15px;
+padding: 20px;
+display: inline-block; /* Displays the records side by side */
+width: 250px;
+transform: transform 0.2s;
 }
 
 .record:hover {
-    transform: scale(1.05);
+transform: scale(1.05);
 }
 
 .record img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 10px;
+width: 100%;
+height: auto;
+margin-bottom: 10px;
 }
 
 footer {
-    text-align: center;
-    padding: 20px;
-    margin-top: 500px;
-    background-color: #4a7b6c;
-    color: white;
+text-align: center;
+padding: 20px;
+margin-top: 500px;
+background-color: #4a7b6c;
+color: white;
 }
 
 /* New Arrivals Section */
 #new-arrivals {
-    padding: 40px 0;
-    text-align: center;
-  }
-  
-  #new-arrivals h2 {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 1.8rem;
-    color: #4a4a4a;
-    margin-bottom: 20px;
-  }
-  
-  .record-grid {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  
-  .record-card {
-    background-color: #f2f2f2;
-    border: 2px solid #ddd;
-    border-radius: 8px;
-    overflow: hidden;
-    width: 220px;
-    text-align: left;
-  }
-  
-  .record-card img {
-    width: 100%;
-    height: auto;
-  }
-  
-  .record-info {
-    padding: 15px;
-  }
-  
-  .record-info h3 {
-    font-size: 1.2rem;
-    color: #2a2a2a;
-    margin: 5px 0;
-  }
-  
-  .record-info p {
-    font-size: 0.9rem;
-    color: #555;
-  }
-  
-  .record-info .description {
-    font-style: italic;
-    color: #777;
-  }
+padding: 40px 0;
+text-align: center;
+}
+
+#new-arrivals h2 {
+font-family: 'Courier New', Courier, monospace;
+font-size: 1.8rem;
+color: #4a4a4a;
+margin-bottom: 20px;
+}
+
+.record-grid {
+display: flex;
+gap: 20px;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.record-card {
+background-color: #f2f2f2;
+border: 2px solid #ddd;
+border-radius: 8px;
+overflow: hidden;
+width: 220px;
+text-align: left;
+}
+
+.record-card img {
+width: 100%;
+height: auto;
+}
+
+.record-info {
+padding: 15px;
+}
+
+.record-info h3 {
+font-size: 1.2rem;
+color: #2a2a2a;
+margin: 5px 0;
+}
+
+.record-info p {
+font-size: 0.9rem;
+color: #555;
+}
+
+.record-info .description {
+font-style: italic;
+color: #777;
+}
