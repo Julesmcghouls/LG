@@ -208,3 +208,92 @@ margin: 5px 0;
 .event-item img {
 
 }
+
+/* About Section */
+#about-us {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    text-align: center;
+    color: #333;
+}
+
+#about-us h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#about-us p {
+    font-size: 1rem;
+    line-height: 1.6;
+    max-width: 700px;
+    margin: 0 auto;
+    color: #666;
+}
+
+#contact {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  #contact h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  #contact p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact-info p {
+    margin: 5px 0;
+  }
+  
+  .contact-info a {
+    color: #ffd700;
+    text-decoration: none;
+  }
+  
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+  
+  form#contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  form#contact-form label {
+    display: block;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  
+  form#contact-form input,
+  form#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form#contact-form button {
+    background-color: #ffd700;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  form#contact-form button:hover {
+    background-color: #e6c700;
+  }
